@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this is me!</title>
+    <style>
+        h1,h3,h4{
+            color: rgb(0, 0, 0);
+            text-align: center;
+            background: rgb(255, 233, 135);
+            padding: 5px;
+        }
+        html{
+            background-color: teal;
+        }
+       #w,#e,#r,#t {
+        color: rgb(0, 0, 0);
+            text-align: center;
+            margin: 0px 0px 10px 0px;
+            background: rgb(10, 9, 104);
+            padding: 5px;
+            box-shadow: rgb(0, 0, 0);
+        }
+        .item{
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 3px dashed teal;
+        }
+       .column1{
+           width: 48%;
+           float: left;
+       }
+       .column2{
+           width: 48%;
+           float: right;
+       }
+       h2{
+           color: rgb(0, 0, 0);
+       }
+       #robot{
+             height: 100px;
+             position: absolute;
+             left: -200px;
+             animation: slide 10s infinite;
+       }
+       @keyframes slide {
+          0% { left: -200px }
+          50% { left: 0 }
+          100% { left: -200px } 
+       }
+      </style>
+</head>
+<body>
+    
+    <img id="robot" src="robot.gif" width="150px" height="1100px">
+
+    <h1>About me</h1>
+    <div class="column1"> <h2>hi my name is Maximus. I am eight years old.</h2>
+        <div class="item"></div>
+        <h4>My Hobbys</h4>
+        <br> <br> <br>
+        <li>I like to play Videogames.</li>
+        <li>I like to watch motorcycles and moutainbikes.</li>
+        <a href="https://www.youtube.com/watch?v=Jk7rliZpuSs">see video</a>
+        <li>I like to play football</li>
+        <li>my favorite footballplayer is Kimmich</li>
+        <img id="w" src="y.jpg">
+        <br>
+        <img id="e" src="kross.jpg" height="300px" width="250">
+        </div>
+        <div class="column2">
+            <img id="t" src="20200506_190625.jpg" height="300px" width="250">
+                <h3>My Skills</h3>
+                <li>I can speak 6 languages.</li>
+                <li>I can play piano and guitar.</li>
+                <li>I can code in scratch and HTML this is my project about continents</li>
+                <br><br>
+                <input type="button" value="click me"  onclick="window.location.href='continents.html'"/>
+                <!-- <button onclick="bat()">
+                    click me!
+                </button> -->
+                <a href="continents.html"><img id="r" src="CONTINENTS.png" width="300px" height="250px"></a>
+                <a href="about me2.html">go to page2</a>
+            </div>
+            <script>
+                alert("Welcome to my page!");
+                // function bat(){
+                //     window.open("file:///C:/Users/sveta/Desktop/House/continents.html","_blank");
+                // }
+            </script>
+</body>
+</html>
